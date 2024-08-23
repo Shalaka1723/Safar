@@ -6,7 +6,7 @@ function IndexPage() {
 
   return (
     <div>
-        <Header/>
+        index page here
     </div>
 
   )

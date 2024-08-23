@@ -10,7 +10,7 @@ function Header() {
 
   return (
     <div>
-      <header className='flex p-4 justify-between'>
+      <header className='flex justify-between'>
         <a href='' className='flex items-center'>
           <AirplanemodeActiveIcon/>
           <span className='text-xl font-bold'>safar</span>
