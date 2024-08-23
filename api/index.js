@@ -5,4 +5,4 @@ app.get('/test',(req,res)=>{
     res.json('test okay')
 });
 
-app.listen
+app.listen(4000);
