@@ -7,33 +7,7 @@ app.use(cors({
     origin: '',
     
 }));
-app.use(cors({
-    credentials: true,
-    origin: '',
-    
-}));
 
-app.use(cors({
-    credentials: true,
-    origin: '',
-    
-}));
-app.use(cors({
-    credentials: true,
-    origin: '',
-    
-}));
-
-app.use(cors({
-    credentials: true,
-    origin: '',
-    
-}));
-app.use(cors({
-    credentials: true,
-    origin: '',
-    
-}));
 
 app.get('/test',(req,res)=>{
     res.json('test okay')
