@@ -8,7 +8,11 @@ function Register() {
   const [password, setPassword] = useState("");
   let registerUser=(event)=>{
     // event.preventDefault();
-    axios.get('http://localhost:4000/test');
+    axios.post('/register',{
+      name,
+      email,
+      password
+    });
   }
 
   return (
@@ -34,7 +38,7 @@ function Register() {
             value={password}
             onChange={(event) => setPassword(event.target.value)}
           />
-          <button className="primary">Login</button>
+          <button className="primary">Register</button>
           <div className="text-center py-2  text-gray-400">
             Already a member?
             <Link className="underline text-black" to={"/login"}>
