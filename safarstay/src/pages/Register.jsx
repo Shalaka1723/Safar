@@ -7,7 +7,7 @@ function Register() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   let registerUser=(event)=>{
-    event.preventDefault();
+    // event.preventDefault();
     axios.get('http://localhost:4000/test');
   }
 

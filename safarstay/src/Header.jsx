@@ -21,8 +21,8 @@ function Header() {
           <div>Any week</div>
           <div className='border-l border-gray-300'></div>
           <div>Add guests</div>
-          <button className='bg-primary w-6 h-6 text-white rounded-full p-1 '>
-            <SearchIcon className=''  sx={{fontSize:20}}/>
+          <button className=' h-6 w-6 py-auto rounded-full bg-primary text-white self-center items-center rounded-full  '>
+            <SearchIcon  className='' fontSize='extrasmall'  />
           </button>
         </div>
         <div className='flex gap-1 shadow-md shadow-gray-300 border border-gray-300 rounded-full px-4 py-2'>
