@@ -14,7 +14,6 @@ app.get("/test", (req, res) => {
   res.json("test okay");
 });
 
-//oStXXmI3sJwoz49K
 
 app.post("/register", (req, res) => {
   const { name, email, password } = req.body;
@@ -22,15 +21,4 @@ app.post("/register", (req, res) => {
 });
 
 app.listen(4000);
-app.post("/register", (req, res) => {
-  const { name, email, password } = req.body;
-  res.json({name,email,password});
-});
 
-app.listen(4000);
-app.post("/register", (req, res) => {
-  const { name, email, password } = req.body;
-  res.json({name,email,password});
-});
-
-app.listen(4000);
