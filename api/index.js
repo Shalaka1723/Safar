@@ -14,6 +14,8 @@ app.get("/test", (req, res) => {
   res.json("test okay");
 });
 
+
+
 app.post("/register", (req, res) => {
   const { name, email, password } = req.body;
   res.json({name,email,password});
